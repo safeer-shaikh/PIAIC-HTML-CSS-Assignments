@@ -21,5 +21,69 @@
             </div>
         </nav>
     </header>
+    <section style="max-width: 1200px; margin: 20px auto;">
+        <form action="" method="get">
+            <fieldset>
+                <legend>Your Details:</legend>
+                <label>Name:
+                    <input type="text" name="name" size="30" maxlength="100">
+                </label>
+                <br />
+                <br />
+                <label>Email:
+                    <input type="email" name="email" size="30" maxlength="100">
+                </label>
+                <br />
+            </fieldset>
+                <br />
+            <fieldset>
+                <legend>Your Review:</legend>
+                <p>
+                <label for="hear-about">How did you hear about us?</label>
+                <select name="referrer" id="hear-about">
+                    <option value="google">Google</option>
+                    <option value="friend">Friend</option>
+                    <option value="advert">Advert</option>
+                    <option value="other">Other</option>
+                </select>
+                </p>
+                <p>Would you visit again?
+                <br />
+                    <label>
+                        <input type="radio" name="rating" value="yes" />
+                        Yes
+                </label>
+                    <label>
+                        <input type="radio" name="rating" value="no" />
+                        No
+                    </label>
+                    <label>
+                        <input type="radio" name="rating" value="maybe" />
+                        Maybe
+                    </label>
+                </p>
+                <p>
+                    <label for="comments">Comments:</label>
+                <br />
+                <textarea rows="4" cols="40" id="comments">
+                </textarea>
+                </p>
+                <label>
+                    <input type="checkbox" name="subscribe" checked="checked" />
+                    Sign me up for email updates
+                </label>
+                <br />
+                <input type="submit" value="Submit review" />
+            </fieldset>
+         </form>
+    </section>
+    <section style="max-width: 1200px; margin: auto;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3517.010802571159!2d67.07103981744088!3d24.861559108364464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3eb33ea17595f2c1%3A0xa0258a700f7f60b2!2s245%2FM%2F2%2C%20Block%D8%8C%20Axiom%2C%20Opp%20PAF-%20KIET%20Campus%D8%8C%206%2C%20P.E.C.H.S.%20Block%206%20PECHS%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!3m2!1d24.86131!2d67.073369!5e0!3m2!1sen!2s!4v1608472512868!5m2!1sen!2s" width="1200" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    <footer style="width: 1200px; margin: auto; height: 50px;">
+        <div style="background-color: #5B9BD4; border: 2px solid #135c9c; border-radius: 10px; text-align: center;">
+            <p style="font-size: 18px; font-family: calibri;">Copyright &copy; 2020. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
