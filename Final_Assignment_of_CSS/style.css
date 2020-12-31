@@ -73,3 +73,65 @@
     color: #303030;
     text-decoration: none;
 }
+.banner{
+    width: 100%;
+    height: 70vh;
+    background-color: #8DC53E;
+    text-align: center;
+}
+.banner_heading{
+    position: absolute;
+    top: 30%;
+    left: 18%;
+}
+.banner_heading h1{
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.banner_heading p{
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.banner_heading button{
+    margin-top: 40px;
+    border: 0px solid transparent;
+    background-color: #FFBC1A;
+    color: #303030;
+    width: 160px;
+    height: 40px;
+    font-weight: 700;
+    box-shadow: 0 2px 4px;
+    border-radius: 5px;
+}
+.banner_heading button:hover{
+    cursor: pointer;
+}
+.section_1{
+    text-align: center;
+    margin-top: 30px;
+}
+.sec_1_heading{
+    font-size: 35px;
+}
+.sec_1_para{
+    font-size: 18px;
+}
+.sec_1_advance{
+    display: flex;
+    margin-top: 30px;
+}
+.sec_1_advance div{
+    width: 300px;
+}
+.sec_1_advance div figure img{
+    width: 150px;
+    height: 100px;
+}
+.sec_1_advance div h3{
+    margin-top: 10px;
+}
+.sec_1_advance div p{
+    margin-top: 20px;
+}
